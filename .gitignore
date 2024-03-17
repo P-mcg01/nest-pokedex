@@ -1,6 +1,7 @@
 # compiled output
 /dist
 /node_modules
+/mongo
 
 # Logs
 logs
@@ -36,3 +37,7 @@ lerna-debug.log*
 
 # Databases
 mongo/
+
+# Environment
+.env
+.env.prod
